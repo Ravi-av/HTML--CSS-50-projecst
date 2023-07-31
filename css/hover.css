@@ -12,7 +12,7 @@ html , body {
     align-items: center;
   }
   .cube {
-    margin: 0 auto;
+    margin: 0 auto;     
     position: relative;
     width: 300px;
     height: 100px;
