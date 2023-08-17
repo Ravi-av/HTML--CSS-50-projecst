@@ -1,6 +1,6 @@
-let slideBtnLeft = document.getElementById(" slide-btn-left")
+let slideBtnLeft = document.getElementById("slide-btn-left")
 let slideBtnRight = document.getElementById("slide-btn-right")
-let imgItem = document.querySelectorAll(".image-item ")
+let imgItem = document.querySelectorAll(".image-item")
 
 console.log(imgItem.length-1)
  
@@ -13,7 +13,7 @@ slideBtnLeft.addEventListener("click",()=>{
 
 slideBtnRight.addEventListener("click",()=>{
   // if(startSlider >= -endSlider+100){
-    startSlider = startSlider - 100;
+    startSlider = startSlider +1;
   // }
   
 imgItem.forEach(element =>{
