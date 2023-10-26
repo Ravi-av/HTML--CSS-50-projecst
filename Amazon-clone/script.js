@@ -9,6 +9,7 @@ let startSlider = 0;
 let endSlider = imgItem.length-1;
 slideBtnRight.addEventListener("click",()=>{
 startSlider=startSlider-100;
+slideBtnLeft.addEventListener("click"())
   
 
 imgItem.forEach(element =>{

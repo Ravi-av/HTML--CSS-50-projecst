@@ -1,0 +1,30 @@
+#pets{
+    
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+
+}
+.card{
+    /* height:300px; */
+    width:400px;
+    border:2px solid black;
+    margin: 10px;
+    padding: 10px;
+border-radius: 14px;
+
+}
+img{
+    background-size: cover;
+ width: 100%;
+ border-radius:14px;
+
+}
+
+.card p{
+  text-align: right;
+
+
+}
